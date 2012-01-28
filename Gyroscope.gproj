@@ -1,0 +1,14 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="7" iosDevice="0" xcodeVersion="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" retinaDisplay="1" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales>
+   <scale suffix="@2x" scale="2"/>
+  </imageScales>
+ </properties>
+ <file file="CompassOver.png"/>
+ <file file="CompassOn.png"/>
+ <file file="CompassOff.png"/>
+ <file file="Circle.png"/>
+ <file file="button.lua"/>
+ <file file="main.lua"/>
+ <dependency from="main.lua" to="button.lua"/>
+</project>
